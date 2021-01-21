@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Crop Prediction Model By kanhaiya</title>
+  </head>
+
+  <body>
+    <h1><div style="text-align:center"><font color="blue">Crop Prediction using Deep Learning</font></div></h1>
+    <hr>
+    </br>
+    <h2><div style="text-align:center">Enter the values for Lat,Long,AMAXTemp,AMINTemp,humidity,maxtemp and mintemp</div></h2>
+    </br>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-8'>
+          <form action="{{ url_for('predict') }}" method="post">
+            <div class="form-group">
+              <label for="Latitude"><p class="font-weight-bold">Latitude</p></label>
+              <input type="text" name="Latitude">
+              <small id="LatitudeHelp" class="form-text text-muted">Enter values : (recommended=-0.11927456)</small>
+              </div>
+
+              <div class="form-group">
+                <label for="Longitude"><p class="font-weight-bold">Longitude</p></label>
+                <input type="text" name="Longitude">
+                <small id="LongitudeHelp" class="form-text text-muted">Enter values : (recommended=0.00434749)</small>
+                </div>
+
+                <div class="form-group">
+                  <label for="ATMAX"><p class="font-weight-bold">ATMAX</p></label>
+                  <input type="text" name="ATMAX">
+                  <small id="ATMAXHelp" class="form-text text-muted">Enter values : (recommended=-1.10499803)</small>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="ATMIN"><p class="font-weight-bold">ATMIN</p></label>
+                    <input type="text" name="ATMIN">
+                    <small id="ATMINHelp" class="form-text text-muted">Enter values : (recommended=-0.4401284)</small>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="humidity"><p class="font-weight-bold">humidity</p></label>
+                      <input type="text" name="humidity">
+                      <small id="humidityHelp" class="form-text text-muted">Enter values : (recommended=1.12482087) </small>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="pressure"><p class="font-weight-bold">pressure</p></label>
+                        <input type="text" name="pressure">
+                        <small id="pressureHelp" class="form-text text-muted">Enter values : (recommended=0.86011432)</small>
+                        </div>
+                        <div class="form-group">
+                        <label for="tempmax"><p class="font-weight-bold">tempmax</p></label>
+                        <input type="text" name="tempmax">
+                        <small id="tempmaxHelp" class="form-text text-muted">Enter values : (recommended=-1.07609788)</small>
+                        </div>
+                        <div class="form-group">
+                        <label for="tempmin"><p class="font-weight-bold">tempmin</p></label>
+                        <input type="text" name="tempmin">
+                        <small id="tempminHelp" class="form-text text-muted">Enter values : (recommended=-0.52140108)</small>
+                        </div>
+
+                        <input class='btn btn-primary' type='submit' value='Submit'>
+            </form>
+
+          </div>
+          </div>
+          </div>
+  </body>
+
+</html>
