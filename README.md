@@ -10,8 +10,7 @@
 ## Explanation of files.
 1. Linear_regression_model.ipynb 
 File is the code file for multiple linear
-regression model with accuracy 25% (very less accuracy because data is
-time series data).
+regression model with accuracy 25% (very less accuracy because data pattern is very random).
 
 ## 2.Linear_regression_model2.ipynb 
 File is the code file for multiple linear
