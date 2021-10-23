@@ -1,4 +1,10 @@
 # Crop_yield_prediction
+• Build an A.I. model using deep learning which is able to predict crop yield
+based on given parameters such as temperature, pressure, humidity and
+geographical locations.
+
+• Developed a full-stack web application using ﬂask for the automation of deep
+learning models.
 
 # Link To The Project
 
