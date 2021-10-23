@@ -12,7 +12,8 @@ learning models.
  
  https://www.youtube.com/watch?v=Gtfmlqigxc4&t=0s
  
- # Deep Learning
+ # Part 2
+ 
  https://www.youtube.com/watch?v=DFpJGZ3-rTs&feature=youtu.be
  
  ## First Page
