@@ -1,9 +1,14 @@
 # Crop_yield_prediction
- Crop_yield_prediction
+
 # Link To The Project
-# Deep Learning
+
+ # part 1
+ 
+ https://www.youtube.com/watch?v=Gtfmlqigxc4&t=0s
+ 
+ # Deep Learning
  https://www.youtube.com/watch?v=DFpJGZ3-rTs&feature=youtu.be
- # part 1https://www.youtube.com/watch?v=Gtfmlqigxc4&t=0s
+ 
  ## First Page
 
  
