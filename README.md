@@ -21,3 +21,8 @@
 ## Resuls Page
 
 ![Screenshot from 2021-10-23 20-38-38](https://user-images.githubusercontent.com/58850584/138561963-dcca8491-0a9a-4b95-9894-2d95d2e88e8a.png)
+
+### Results 2
+
+![50%](https://user-images.githubusercontent.com/58850584/138562065-784ab1a8-b10c-4ddf-949c-1d7f19627c8b.png)
+
